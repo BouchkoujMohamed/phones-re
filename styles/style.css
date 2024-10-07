@@ -1,0 +1,81 @@
+*{ 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.continair{
+    font-family: sans-serif;
+    background-color: #b4a306;
+    min-height: 100vh;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    width: 70px;
+}
+header li{
+    display: inline-block;
+    margin: 0 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+.cntent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+}
+.cntent .texte{
+    width: 40%;
+    color: #fff;
+}
+.cntent .texte h2{
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+.cntent .texte p{
+    margin: 40px 0;
+    line-height: 40px;
+    font-size: 24px;
+}
+.cntent .texte a{
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.582);
+    padding: 8px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.cntent .phone{
+    width: 30%;
+}
+.cntent .phone img{
+    width: 240px;
+}
+.icons{
+    position: absolute;
+    bottom: 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.icons img{
+    width: 60px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.icons img:hover{
+    transform:scale(1.2);
+}
